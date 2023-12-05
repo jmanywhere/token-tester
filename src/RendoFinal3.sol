@@ -810,8 +810,6 @@ contract RENDO is Context, IERC20, Ownable {
 
     //Oracle Price Update, Manual Process.
     uint256 public swapOutput = 0;
-    //Trading Controls added for SAFU Requirements
-    bool public tradingEnabled;
     //Router and Pair Configuration.
     IUniswapV2Router02 public immutable uniswapV2Router;
     address public immutable uniswapV2Pair;
@@ -960,12 +958,6 @@ contract RENDO is Context, IERC20, Ownable {
             _tOwned[from] >= amount,
             "ERC20: transfer amount exceeds balance"
         );
-        require(
-            tradingEnabled ||
-                _isExcludedFromFee[from] ||
-                _isExcludedFromFee[to],
-            "Trading not yet enabled!"
-        );
 
         //Adding logic for automatic swap.
         uint256 contractTokenBalance = balanceOf(address(this));
@@ -1005,7 +997,7 @@ contract RENDO is Context, IERC20, Ownable {
         uint totalFees = ecosystemFee + marketingFee;
         if (totalFees == 0) totalFees = 1;
         uint ecosystemAmount = (ethBalance * ecosystemFee) / totalFees;
-        ethBalance -= ecosystemAmount;
+        if (ecosystemAmount > 0) ethBalance -= ecosystemAmount;
         transferToAddressETH(ecosystemWallet, ecosystemAmount);
         transferToAddressETH(marketingWallet, ethBalance);
 
@@ -1186,11 +1178,5 @@ contract RENDO is Context, IERC20, Ownable {
         emit Log("We have recovered tokens from contract:", _amount);
     }
 
-    //Trading Controls for SAFU Contract
-    function enableTrading() external onlyOwner {
-        require(!tradingEnabled, "Trading already enabled.");
-        tradingEnabled = true;
-        emit AuditLog("We have Enable Trading:", msg.sender);
-    }
     //Final Dev notes, this code has been tested and audited, last update to code was done to re-add swapandliquify function to the transfer as option, is recommended to be used manually instead of automatic.
 }

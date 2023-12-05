@@ -2,10 +2,10 @@
 pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
-import "../src/RendoFinal2.sol";
+import "../src/Digiverse.sol";
 
 contract TokenTest is Test {
-    RENDO token;
+    SAS token;
     IUniswapV2Router02 router;
     IUniswapV2Pair pair;
 
@@ -13,7 +13,7 @@ contract TokenTest is Test {
     address buyer = makeAddr("buyer");
 
     function setUp() public {
-        token = new RENDO();
+        token = new SAS();
         router = token.uniswapV2Router();
         pair = IUniswapV2Pair(token.uniswapV2Pair());
 
@@ -45,7 +45,7 @@ contract TokenTest is Test {
             owner,
             block.timestamp
         );
-        token.enableTrading();
+        // token.enableTrading();
         _;
     }
 
@@ -55,7 +55,7 @@ contract TokenTest is Test {
         path[1] = address(token);
 
         vm.startPrank(buyer);
-        router.swapExactETHForTokens{value: 0.1 ether}(
+        router.swapExactETHForTokens{value: 1 ether}(
             0,
             path,
             buyer,
@@ -85,7 +85,7 @@ contract TokenTest is Test {
         path[1] = address(token);
 
         vm.startPrank(buyer);
-        router.swapExactETHForTokens{value: 0.1 ether}(
+        router.swapExactETHForTokens{value: 1 ether}(
             0,
             path,
             buyer,
@@ -96,6 +96,7 @@ contract TokenTest is Test {
         uint currentBalance = token.balanceOf(buyer);
         uint currentETH = address(buyer).balance;
         assertGt(currentBalance, 0);
+        console.log("tokenBalance: %s", token.balanceOf(address(token)));
 
         token.swapAndLiquifyEnabled();
         path[0] = address(token);
