@@ -1,0 +1,775 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="4486pt" height="332pt" viewBox="0.00 0.00 4486.37 332.00">
+<g id="graph0" class="graph" transform="translate(4,328) scale(1)" data-name="G">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-328 4482.37,-328 4482.37,4 -4,4" style=""/>
+<!-- IUniswapV2Factory -->
+<g id="node1" class="node" pointer-events="visible" data-name="IUniswapV2Factory">
+
+<ellipse fill="none" stroke="black" cx="89.89" cy="-306" rx="89.77" ry="18" style=""/>
+<text text-anchor="middle" x="89.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">IUniswapV2Factory</text>
+</g>
+<!-- IUniswapV2Pair -->
+<g id="node2" class="node" pointer-events="visible" data-name="IUniswapV2Pair">
+
+<ellipse fill="none" stroke="black" cx="273.89" cy="-306" rx="75.89" ry="18" style=""/>
+<text text-anchor="middle" x="273.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">IUniswapV2Pair</text>
+</g>
+<!-- IUniswapV2Router01 -->
+<g id="node3" class="node" pointer-events="visible" data-name="IUniswapV2Router01">
+
+<ellipse fill="none" stroke="black" cx="463.89" cy="-234" rx="96.15" ry="18" style=""/>
+<text text-anchor="middle" x="463.89" y="-229.8" font-family="Times,serif" font-size="14.00" style="">IUniswapV2Router01</text>
+</g>
+<!-- IUniswapV2Router02 -->
+<g id="node4" class="node" pointer-events="visible" data-name="IUniswapV2Router02">
+
+<ellipse fill="none" stroke="black" cx="463.89" cy="-306" rx="96.15" ry="18" style=""/>
+<text text-anchor="middle" x="463.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">IUniswapV2Router02</text>
+</g>
+<!-- IUniswapV2Router02&#45;&gt;IUniswapV2Router01 -->
+<g id="edge1" class="edge" data-name="IUniswapV2Router02-&gt;IUniswapV2Router01">
+
+<path fill="none" stroke="black" d="M452.05,-287.7C450.53,-280.32 450.05,-271.52 450.61,-263.25" style=""/>
+<polygon fill="black" stroke="black" points="454.05,-263.98 451.9,-253.6 447.11,-263.06 454.05,-263.98" style=""/>
+</g>
+<!-- IUniswapV2Router02&#45;&gt;IUniswapV2Router01 -->
+<g id="edge30" class="edge" data-name="IUniswapV2Router02-&gt;IUniswapV2Router01">
+
+<path fill="none" stroke="black" d="M463.89,-287.7C463.89,-280.41 463.89,-271.73 463.89,-263.54" style=""/>
+<polygon fill="black" stroke="black" points="467.39,-263.62 463.89,-253.62 460.39,-263.62 467.39,-263.62" style=""/>
+</g>
+<!-- IUniswapV2Router02&#45;&gt;IUniswapV2Router01 -->
+<g id="edge35" class="edge" data-name="IUniswapV2Router02-&gt;IUniswapV2Router01">
+
+<path fill="none" stroke="black" d="M475.72,-287.7C477.24,-280.32 477.72,-271.52 477.16,-263.25" style=""/>
+<polygon fill="black" stroke="black" points="480.67,-263.06 475.88,-253.6 473.73,-263.98 480.67,-263.06" style=""/>
+</g>
+<!-- IERC165 -->
+<g id="node5" class="node" pointer-events="visible" data-name="IERC165">
+
+<ellipse fill="none" stroke="black" cx="1657.89" cy="-90" rx="47.54" ry="18" style=""/>
+<text text-anchor="middle" x="1657.89" y="-85.8" font-family="Times,serif" font-size="14.00" style="">IERC165</text>
+</g>
+<!-- ERC165 -->
+<g id="node6" class="node" pointer-events="visible" data-name="ERC165">
+
+<ellipse fill="none" stroke="black" cx="1547.89" cy="-162" rx="44.11" ry="18" style=""/>
+<text text-anchor="middle" x="1547.89" y="-157.8" font-family="Times,serif" font-size="14.00" style="">ERC165</text>
+</g>
+<!-- ERC165&#45;&gt;IERC165 -->
+<g id="edge2" class="edge" data-name="ERC165-&gt;IERC165">
+
+<path fill="none" stroke="black" d="M1570.95,-146.33C1586.68,-136.31 1607.75,-122.9 1625.21,-111.8" style=""/>
+<polygon fill="black" stroke="black" points="1626.64,-115.03 1633.2,-106.71 1622.89,-109.12 1626.64,-115.03" style=""/>
+</g>
+<!-- SignedMath -->
+<g id="node7" class="node" pointer-events="visible" data-name="SignedMath">
+
+<ellipse fill="none" stroke="black" cx="1444.89" cy="-306" rx="58.49" ry="18" style=""/>
+<text text-anchor="middle" x="1444.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">SignedMath</text>
+</g>
+<!-- Math -->
+<g id="node8" class="node" pointer-events="visible" data-name="Math">
+
+<ellipse fill="none" stroke="black" cx="1552.89" cy="-306" rx="31.34" ry="18" style=""/>
+<text text-anchor="middle" x="1552.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">Math</text>
+</g>
+<!-- Strings -->
+<g id="node9" class="node" pointer-events="visible" data-name="Strings">
+
+<ellipse fill="none" stroke="black" cx="1640.89" cy="-306" rx="38.31" ry="18" style=""/>
+<text text-anchor="middle" x="1640.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">Strings</text>
+</g>
+<!-- IAccessControl -->
+<g id="node10" class="node" pointer-events="visible" data-name="IAccessControl">
+
+<ellipse fill="none" stroke="black" cx="1414.89" cy="-162" rx="71.22" ry="18" style=""/>
+<text text-anchor="middle" x="1414.89" y="-157.8" font-family="Times,serif" font-size="14.00" style="">IAccessControl</text>
+</g>
+<!-- Context -->
+<g id="node11" class="node" pointer-events="visible" data-name="Context">
+
+<ellipse fill="none" stroke="black" cx="738.89" cy="-90" rx="41.73" ry="18" style=""/>
+<text text-anchor="middle" x="738.89" y="-85.8" font-family="Times,serif" font-size="14.00" style="">Context</text>
+</g>
+<!-- AccessControl -->
+<g id="node12" class="node" pointer-events="visible" data-name="AccessControl">
+
+<ellipse fill="none" stroke="black" cx="1406.89" cy="-234" rx="67.79" ry="18" style=""/>
+<text text-anchor="middle" x="1406.89" y="-229.8" font-family="Times,serif" font-size="14.00" style="">AccessControl</text>
+</g>
+<!-- AccessControl&#45;&gt;ERC165 -->
+<g id="edge5" class="edge" data-name="AccessControl-&gt;ERC165">
+
+<path fill="none" stroke="black" d="M1437.83,-217.64C1459.24,-207.01 1487.86,-192.8 1510.54,-181.54" style=""/>
+<polygon fill="black" stroke="black" points="1512.06,-184.69 1519.47,-177.11 1508.95,-178.42 1512.06,-184.69" style=""/>
+</g>
+<!-- AccessControl&#45;&gt;IAccessControl -->
+<g id="edge4" class="edge" data-name="AccessControl-&gt;IAccessControl">
+
+<path fill="none" stroke="black" d="M1408.86,-215.7C1409.7,-208.41 1410.69,-199.73 1411.62,-191.54" style=""/>
+<polygon fill="black" stroke="black" points="1415.1,-191.94 1412.76,-181.61 1408.15,-191.15 1415.1,-191.94" style=""/>
+</g>
+<!-- AccessControl&#45;&gt;Context -->
+<g id="edge3" class="edge" data-name="AccessControl-&gt;Context">
+
+<path fill="none" stroke="black" d="M1352.91,-222.67C1318.38,-214.51 1273.55,-200.95 1237.89,-180 1217.83,-168.22 1221.1,-153.55 1199.89,-144 1033.08,-68.91 968.99,-145.18 789.89,-108 786.76,-107.35 783.56,-106.57 780.36,-105.71" style=""/>
+<polygon fill="black" stroke="black" points="781.62,-102.43 771.03,-102.95 779.63,-109.14 781.62,-102.43" style=""/>
+</g>
+<!-- IERC20 -->
+<g id="node13" class="node" pointer-events="visible" data-name="IERC20">
+
+<ellipse fill="none" stroke="black" cx="999.89" cy="-18" rx="42.88" ry="18" style=""/>
+<text text-anchor="middle" x="999.89" y="-13.8" font-family="Times,serif" font-size="14.00" style="">IERC20</text>
+</g>
+<!-- IERC20Metadata -->
+<g id="node14" class="node" pointer-events="visible" data-name="IERC20Metadata">
+
+<ellipse fill="none" stroke="black" cx="999.89" cy="-90" rx="78.73" ry="18" style=""/>
+<text text-anchor="middle" x="999.89" y="-85.8" font-family="Times,serif" font-size="14.00" style="">IERC20Metadata</text>
+</g>
+<!-- IERC20Metadata&#45;&gt;IERC20 -->
+<g id="edge6" class="edge" data-name="IERC20Metadata-&gt;IERC20">
+
+<path fill="none" stroke="black" d="M993.97,-71.7C993.22,-64.41 992.97,-55.73 993.24,-47.54" style=""/>
+<polygon fill="black" stroke="black" points="996.73,-47.82 993.89,-37.61 989.74,-47.36 996.73,-47.82" style=""/>
+</g>
+<!-- IERC20Metadata&#45;&gt;IERC20 -->
+<g id="edge16" class="edge" data-name="IERC20Metadata-&gt;IERC20">
+
+<path fill="none" stroke="black" d="M1005.8,-71.7C1006.55,-64.41 1006.8,-55.73 1006.53,-47.54" style=""/>
+<polygon fill="black" stroke="black" points="1010.03,-47.36 1005.88,-37.61 1003.04,-47.82 1010.03,-47.36" style=""/>
+</g>
+<!-- ERC20 -->
+<g id="node15" class="node" pointer-events="visible" data-name="ERC20">
+
+<ellipse fill="none" stroke="black" cx="1285.89" cy="-162" rx="39.45" ry="18" style=""/>
+<text text-anchor="middle" x="1285.89" y="-157.8" font-family="Times,serif" font-size="14.00" style="">ERC20</text>
+</g>
+<!-- ERC20&#45;&gt;Context -->
+<g id="edge7" class="edge" data-name="ERC20-&gt;Context">
+
+<path fill="none" stroke="black" d="M1252.64,-151.76C1243.32,-148.82 1233.27,-145.86 1223.89,-144 1030.12,-105.58 974.43,-147.52 780.89,-108 779.5,-107.72 778.09,-107.41 776.68,-107.07" style=""/>
+<polygon fill="black" stroke="black" points="777.92,-103.78 767.36,-104.56 776.1,-110.54 777.92,-103.78" style=""/>
+</g>
+<!-- ERC20&#45;&gt;Context -->
+<g id="edge17" class="edge" data-name="ERC20-&gt;Context">
+
+<path fill="none" stroke="black" d="M1259.14,-148.35C1253.51,-146.66 1247.57,-145.13 1241.89,-144 1048.12,-105.58 992.43,-147.52 798.89,-108 793.97,-107 788.87,-105.66 783.79,-104.19" style=""/>
+<polygon fill="black" stroke="black" points="784.84,-100.85 774.26,-101.23 782.77,-107.53 784.84,-100.85" style=""/>
+</g>
+<!-- ERC20&#45;&gt;IERC20 -->
+<g id="edge8" class="edge" data-name="ERC20-&gt;IERC20">
+
+<path fill="none" stroke="black" d="M1309.96,-147.57C1325.25,-138.88 1343.58,-125.83 1352.89,-108 1360.29,-93.81 1363.35,-84.11 1352.89,-72 1314.59,-27.69 1143.61,-19.71 1054.35,-18.72" style=""/>
+<polygon fill="black" stroke="black" points="1054.64,-15.22 1044.62,-18.64 1054.59,-22.22 1054.64,-15.22" style=""/>
+</g>
+<!-- ERC20&#45;&gt;IERC20 -->
+<g id="edge18" class="edge" data-name="ERC20-&gt;IERC20">
+
+<path fill="none" stroke="black" d="M1318.04,-151.24C1337.46,-142.74 1360.17,-128.54 1370.89,-108 1378.29,-93.81 1381.35,-84.11 1370.89,-72 1331.06,-25.91 1147.71,-19.13 1054.47,-18.63" style=""/>
+<polygon fill="black" stroke="black" points="1054.54,-15.13 1044.53,-18.6 1054.52,-22.13 1054.54,-15.13" style=""/>
+</g>
+<!-- ERC20&#45;&gt;IERC20Metadata -->
+<g id="edge9" class="edge" data-name="ERC20-&gt;IERC20Metadata">
+
+<path fill="none" stroke="black" d="M1251.9,-152.33C1242.73,-149.51 1232.93,-146.47 1223.89,-144 1170.58,-129.42 1109.66,-115.66 1064.75,-105.82" style=""/>
+<polygon fill="black" stroke="black" points="1065.69,-102.44 1055.18,-103.73 1064.2,-109.28 1065.69,-102.44" style=""/>
+</g>
+<!-- ERC20&#45;&gt;IERC20Metadata -->
+<g id="edge19" class="edge" data-name="ERC20-&gt;IERC20Metadata">
+
+<path fill="none" stroke="black" d="M1258.13,-148.79C1252.77,-147.1 1247.2,-145.45 1241.89,-144 1185.27,-128.51 1120.07,-113.96 1071.54,-104.03" style=""/>
+<polygon fill="black" stroke="black" points="1072.5,-100.65 1062,-102.1 1071.11,-107.52 1072.5,-100.65" style=""/>
+</g>
+<!-- IERC20Errors -->
+<g id="node19" class="node" pointer-events="visible" data-name="IERC20Errors">
+
+<ellipse fill="none" stroke="black" cx="1285.89" cy="-90" rx="66.65" ry="18" style=""/>
+<text text-anchor="middle" x="1285.89" y="-85.8" font-family="Times,serif" font-size="14.00" style="">IERC20Errors</text>
+</g>
+<!-- ERC20&#45;&gt;IERC20Errors -->
+<g id="edge20" class="edge" data-name="ERC20-&gt;IERC20Errors">
+
+<path fill="none" stroke="black" d="M1285.89,-143.7C1285.89,-136.41 1285.89,-127.73 1285.89,-119.54" style=""/>
+<polygon fill="black" stroke="black" points="1289.39,-119.62 1285.89,-109.62 1282.39,-119.62 1289.39,-119.62" style=""/>
+</g>
+<!-- ERC20Burnable -->
+<g id="node16" class="node" pointer-events="visible" data-name="ERC20Burnable">
+
+<ellipse fill="none" stroke="black" cx="1198.89" cy="-234" rx="74.74" ry="18" style=""/>
+<text text-anchor="middle" x="1198.89" y="-229.8" font-family="Times,serif" font-size="14.00" style="">ERC20Burnable</text>
+</g>
+<!-- ERC20Burnable&#45;&gt;Context -->
+<g id="edge10" class="edge" data-name="ERC20Burnable-&gt;Context">
+
+<path fill="none" stroke="black" d="M1165.73,-217.57C1146.37,-207.91 1121.9,-194.57 1101.89,-180 1083.08,-166.31 1084.89,-154 1063.89,-144 953,-91.18 909.58,-135.55 789.89,-108 786.92,-107.32 783.88,-106.53 780.83,-105.68" style=""/>
+<polygon fill="black" stroke="black" points="781.94,-102.36 771.35,-102.82 779.92,-109.06 781.94,-102.36" style=""/>
+</g>
+<!-- ERC20Burnable&#45;&gt;ERC20 -->
+<g id="edge11" class="edge" data-name="ERC20Burnable-&gt;ERC20">
+
+<path fill="none" stroke="black" d="M1219.5,-216.41C1231.07,-207.11 1245.65,-195.38 1258.2,-185.28" style=""/>
+<polygon fill="black" stroke="black" points="1260.13,-188.22 1265.72,-179.22 1255.74,-182.76 1260.13,-188.22" style=""/>
+</g>
+<!-- EmbarkToken -->
+<g id="node17" class="node" pointer-events="visible" data-name="EmbarkToken">
+
+<ellipse fill="none" stroke="black" cx="1301.89" cy="-306" rx="66.05" ry="18" style=""/>
+<text text-anchor="middle" x="1301.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">EmbarkToken</text>
+</g>
+<!-- EmbarkToken&#45;&gt;AccessControl -->
+<g id="edge14" class="edge" data-name="EmbarkToken-&gt;AccessControl">
+
+<path fill="none" stroke="black" d="M1325.97,-288.94C1340.01,-279.58 1357.93,-267.64 1373.34,-257.37" style=""/>
+<polygon fill="black" stroke="black" points="1374.91,-260.53 1381.29,-252.07 1371.02,-254.7 1374.91,-260.53" style=""/>
+</g>
+<!-- EmbarkToken&#45;&gt;ERC20 -->
+<g id="edge12" class="edge" data-name="EmbarkToken-&gt;ERC20">
+
+<path fill="none" stroke="black" d="M1299.92,-287.59C1297.22,-263.61 1292.32,-220.14 1289.09,-191.42" style=""/>
+<polygon fill="black" stroke="black" points="1292.58,-191.16 1287.98,-181.61 1285.63,-191.94 1292.58,-191.16" style=""/>
+</g>
+<!-- EmbarkToken&#45;&gt;ERC20Burnable -->
+<g id="edge13" class="edge" data-name="EmbarkToken-&gt;ERC20Burnable">
+
+<path fill="none" stroke="black" d="M1278,-288.76C1264.44,-279.55 1247.27,-267.88 1232.39,-257.77" style=""/>
+<polygon fill="black" stroke="black" points="1234.49,-254.97 1224.25,-252.24 1230.56,-260.76 1234.49,-254.97" style=""/>
+</g>
+<!-- Ownable -->
+<g id="node18" class="node" pointer-events="visible" data-name="Ownable">
+
+<ellipse fill="none" stroke="black" cx="718.89" cy="-162" rx="45.79" ry="18" style=""/>
+<text text-anchor="middle" x="718.89" y="-157.8" font-family="Times,serif" font-size="14.00" style="">Ownable</text>
+</g>
+<!-- Ownable&#45;&gt;Context -->
+<g id="edge15" class="edge" data-name="Ownable-&gt;Context">
+
+<path fill="none" stroke="black" d="M711.97,-144.05C712.56,-136 714.91,-126.19 718.28,-117.2" style=""/>
+<polygon fill="black" stroke="black" points="721.42,-118.78 722.24,-108.21 715.01,-115.96 721.42,-118.78" style=""/>
+</g>
+<!-- Ownable&#45;&gt;Context -->
+<g id="edge29" class="edge" data-name="Ownable-&gt;Context">
+
+<path fill="none" stroke="black" d="M723.83,-143.7C725.96,-136.24 728.51,-127.32 730.9,-118.97" style=""/>
+<polygon fill="black" stroke="black" points="734.2,-120.14 733.58,-109.56 727.47,-118.21 734.2,-120.14" style=""/>
+</g>
+<!-- Ownable&#45;&gt;Context -->
+<g id="edge34" class="edge" data-name="Ownable-&gt;Context">
+
+<path fill="none" stroke="black" d="M735.13,-144.76C738.98,-137.21 742.17,-128 744.07,-119.36" style=""/>
+<polygon fill="black" stroke="black" points="747.5,-120.03 745.56,-109.62 740.58,-118.97 747.5,-120.03" style=""/>
+</g>
+<!-- IERC721Errors -->
+<g id="node20" class="node" pointer-events="visible" data-name="IERC721Errors">
+
+<ellipse fill="none" stroke="black" cx="1768.89" cy="-306" rx="71.8" ry="18" style=""/>
+<text text-anchor="middle" x="1768.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">IERC721Errors</text>
+</g>
+<!-- IERC1155Errors -->
+<g id="node21" class="node" pointer-events="visible" data-name="IERC1155Errors">
+
+<ellipse fill="none" stroke="black" cx="1934.89" cy="-306" rx="76.46" ry="18" style=""/>
+<text text-anchor="middle" x="1934.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">IERC1155Errors</text>
+</g>
+<!-- IERC20Permit -->
+<g id="node22" class="node" pointer-events="visible" data-name="IERC20Permit">
+
+<ellipse fill="none" stroke="black" cx="986.89" cy="-162" rx="68.38" ry="18" style=""/>
+<text text-anchor="middle" x="986.89" y="-157.8" font-family="Times,serif" font-size="14.00" style="">IERC20Permit</text>
+</g>
+<!-- ECDSA -->
+<g id="node23" class="node" pointer-events="visible" data-name="ECDSA">
+
+<ellipse fill="none" stroke="black" cx="2071.89" cy="-306" rx="42.89" ry="18" style=""/>
+<text text-anchor="middle" x="2071.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">ECDSA</text>
+</g>
+<!-- IERC5267 -->
+<g id="node24" class="node" pointer-events="visible" data-name="IERC5267">
+
+<ellipse fill="none" stroke="black" cx="850.89" cy="-90" rx="52.2" ry="18" style=""/>
+<text text-anchor="middle" x="850.89" y="-85.8" font-family="Times,serif" font-size="14.00" style="">IERC5267</text>
+</g>
+<!-- MessageHashUtils -->
+<g id="node25" class="node" pointer-events="visible" data-name="MessageHashUtils">
+
+<ellipse fill="none" stroke="black" cx="2215.89" cy="-306" rx="83.41" ry="18" style=""/>
+<text text-anchor="middle" x="2215.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">MessageHashUtils</text>
+</g>
+<!-- StorageSlot -->
+<g id="node26" class="node" pointer-events="visible" data-name="StorageSlot">
+
+<ellipse fill="none" stroke="black" cx="2373.89" cy="-306" rx="56.2" ry="18" style=""/>
+<text text-anchor="middle" x="2373.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">StorageSlot</text>
+</g>
+<!-- ShortStrings -->
+<g id="node27" class="node" pointer-events="visible" data-name="ShortStrings">
+
+<ellipse fill="none" stroke="black" cx="2506.89" cy="-306" rx="59.16" ry="18" style=""/>
+<text text-anchor="middle" x="2506.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">ShortStrings</text>
+</g>
+<!-- EIP712 -->
+<g id="node28" class="node" pointer-events="visible" data-name="EIP712">
+
+<ellipse fill="none" stroke="black" cx="1150.89" cy="-162" rx="40.01" ry="18" style=""/>
+<text text-anchor="middle" x="1150.89" y="-157.8" font-family="Times,serif" font-size="14.00" style="">EIP712</text>
+</g>
+<!-- EIP712&#45;&gt;IERC5267 -->
+<g id="edge21" class="edge" data-name="EIP712-&gt;IERC5267">
+
+<path fill="none" stroke="black" d="M1119.36,-150.42C1112.03,-148.14 1104.22,-145.86 1096.89,-144 1015.7,-123.39 993.41,-127.26 911.89,-108 908.3,-107.15 904.61,-106.24 900.9,-105.28" style=""/>
+<polygon fill="black" stroke="black" points="901.84,-101.91 891.28,-102.73 900.05,-108.68 901.84,-101.91" style=""/>
+</g>
+<!-- Nonces -->
+<g id="node29" class="node" pointer-events="visible" data-name="Nonces">
+
+<ellipse fill="none" stroke="black" cx="860.89" cy="-162" rx="40" ry="18" style=""/>
+<text text-anchor="middle" x="860.89" y="-157.8" font-family="Times,serif" font-size="14.00" style="">Nonces</text>
+</g>
+<!-- ERC20Permit -->
+<g id="node30" class="node" pointer-events="visible" data-name="ERC20Permit">
+
+<ellipse fill="none" stroke="black" cx="986.89" cy="-234" rx="65.45" ry="18" style=""/>
+<text text-anchor="middle" x="986.89" y="-229.8" font-family="Times,serif" font-size="14.00" style="">ERC20Permit</text>
+</g>
+<!-- ERC20Permit&#45;&gt;ERC20 -->
+<g id="edge22" class="edge" data-name="ERC20Permit-&gt;ERC20">
+
+<path fill="none" stroke="black" d="M1035.59,-221.6C1092.25,-208.33 1185.07,-186.6 1240.34,-173.66" style=""/>
+<polygon fill="black" stroke="black" points="1240.8,-177.15 1249.74,-171.46 1239.2,-170.33 1240.8,-177.15" style=""/>
+</g>
+<!-- ERC20Permit&#45;&gt;IERC20Permit -->
+<g id="edge23" class="edge" data-name="ERC20Permit-&gt;IERC20Permit">
+
+<path fill="none" stroke="black" d="M986.89,-215.7C986.89,-208.41 986.89,-199.73 986.89,-191.54" style=""/>
+<polygon fill="black" stroke="black" points="990.39,-191.62 986.89,-181.62 983.39,-191.62 990.39,-191.62" style=""/>
+</g>
+<!-- ERC20Permit&#45;&gt;EIP712 -->
+<g id="edge24" class="edge" data-name="ERC20Permit-&gt;EIP712">
+
+<path fill="none" stroke="black" d="M1021.27,-218.33C1047.8,-207 1084.51,-191.33 1112.1,-179.56" style=""/>
+<polygon fill="black" stroke="black" points="1113.34,-182.83 1121.16,-175.69 1110.59,-176.39 1113.34,-182.83" style=""/>
+</g>
+<!-- ERC20Permit&#45;&gt;Nonces -->
+<g id="edge25" class="edge" data-name="ERC20Permit-&gt;Nonces">
+
+<path fill="none" stroke="black" d="M958.61,-217.29C939.83,-206.86 915.05,-193.09 895.15,-182.04" style=""/>
+<polygon fill="black" stroke="black" points="897.01,-179.06 886.57,-177.27 893.61,-185.18 897.01,-179.06" style=""/>
+</g>
+<!-- VitalikMumDOGE -->
+<g id="node31" class="node" pointer-events="visible" data-name="VitalikMumDOGE">
+
+<ellipse fill="none" stroke="black" cx="986.89" cy="-306" rx="85.71" ry="18" style=""/>
+<text text-anchor="middle" x="986.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">VitalikMumDOGE</text>
+</g>
+<!-- VitalikMumDOGE&#45;&gt;ERC20 -->
+<g id="edge26" class="edge" data-name="VitalikMumDOGE-&gt;ERC20">
+
+<path fill="none" stroke="black" d="M1010.01,-288.34C1043.79,-264.11 1103.82,-221.4 1114.89,-216 1155.21,-196.32 1204.44,-181.98 1239.7,-173.22" style=""/>
+<polygon fill="black" stroke="black" points="1240.27,-176.68 1249.16,-170.92 1238.62,-169.88 1240.27,-176.68" style=""/>
+</g>
+<!-- VitalikMumDOGE&#45;&gt;Ownable -->
+<g id="edge27" class="edge" data-name="VitalikMumDOGE-&gt;Ownable">
+
+<path fill="none" stroke="black" d="M910.01,-297.77C846.07,-290.16 761.8,-275.9 737.89,-252 722.25,-236.37 718.03,-211.23 717.42,-191.65" style=""/>
+<polygon fill="black" stroke="black" points="720.92,-191.83 717.43,-181.82 713.92,-191.82 720.92,-191.83" style=""/>
+</g>
+<!-- VitalikMumDOGE&#45;&gt;ERC20Permit -->
+<g id="edge28" class="edge" data-name="VitalikMumDOGE-&gt;ERC20Permit">
+
+<path fill="none" stroke="black" d="M986.89,-287.7C986.89,-280.41 986.89,-271.73 986.89,-263.54" style=""/>
+<polygon fill="black" stroke="black" points="990.39,-263.62 986.89,-253.62 983.39,-263.62 990.39,-263.62" style=""/>
+</g>
+<!-- Address -->
+<g id="node32" class="node" pointer-events="visible" data-name="Address">
+
+<ellipse fill="none" stroke="black" cx="2626.89" cy="-306" rx="42.87" ry="18" style=""/>
+<text text-anchor="middle" x="2626.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">Address</text>
+</g>
+<!-- SAS -->
+<g id="node33" class="node" pointer-events="visible" data-name="SAS">
+
+<ellipse fill="none" stroke="black" cx="606.89" cy="-234" rx="28.51" ry="18" style=""/>
+<text text-anchor="middle" x="606.89" y="-229.8" font-family="Times,serif" font-size="14.00" style="">SAS</text>
+</g>
+<!-- SAS&#45;&gt;Context -->
+<g id="edge31" class="edge" data-name="SAS-&gt;Context">
+
+<path fill="none" stroke="black" d="M614.91,-216.58C624.7,-197.65 642.59,-166.29 663.89,-144 675.85,-131.48 691.17,-120.04 704.83,-111.02" style=""/>
+<polygon fill="black" stroke="black" points="706.6,-114.04 713.15,-105.71 702.84,-108.14 706.6,-114.04" style=""/>
+</g>
+<!-- SAS&#45;&gt;IERC20 -->
+<g id="edge32" class="edge" data-name="SAS-&gt;IERC20">
+
+<path fill="none" stroke="black" d="M607.71,-215.63C610.34,-181.71 621.39,-106.9 667.89,-72 710.81,-39.78 863.39,-26.5 945.93,-21.58" style=""/>
+<polygon fill="black" stroke="black" points="946.04,-25.08 955.83,-21.01 945.64,-18.09 946.04,-25.08" style=""/>
+</g>
+<!-- SAS&#45;&gt;Ownable -->
+<g id="edge33" class="edge" data-name="SAS-&gt;Ownable">
+
+<path fill="none" stroke="black" d="M626.65,-220.65C643.02,-210.42 666.61,-195.67 685.84,-183.65" style=""/>
+<polygon fill="black" stroke="black" points="687.53,-186.72 694.16,-178.46 683.82,-180.79 687.53,-186.72" style=""/>
+</g>
+<!-- RENDO -->
+<g id="node34" class="node" pointer-events="visible" data-name="RENDO">
+
+<ellipse fill="none" stroke="black" cx="790.89" cy="-234" rx="44.1" ry="18" style=""/>
+<text text-anchor="middle" x="790.89" y="-229.8" font-family="Times,serif" font-size="14.00" style="">RENDO</text>
+</g>
+<!-- RENDO&#45;&gt;Context -->
+<g id="edge36" class="edge" data-name="RENDO-&gt;Context">
+
+<path fill="none" stroke="black" d="M789.61,-215.7C787.79,-197.34 783.54,-167.75 773.89,-144 770.01,-134.46 764.29,-124.82 758.61,-116.43" style=""/>
+<polygon fill="black" stroke="black" points="761.58,-114.57 752.93,-108.46 755.88,-118.64 761.58,-114.57" style=""/>
+</g>
+<!-- RENDO&#45;&gt;IERC20 -->
+<g id="edge37" class="edge" data-name="RENDO-&gt;IERC20">
+
+<path fill="none" stroke="black" d="M749.26,-227.69C719.98,-221.55 682.76,-208.33 663.89,-180 645.2,-151.95 685.55,-74 687.89,-72 725.81,-39.49 867.23,-26.43 946.01,-21.58" style=""/>
+<polygon fill="black" stroke="black" points="945.88,-25.1 955.65,-21.02 945.47,-18.11 945.88,-25.1" style=""/>
+</g>
+<!-- RENDO&#45;&gt;Ownable -->
+<g id="edge38" class="edge" data-name="RENDO-&gt;Ownable">
+
+<path fill="none" stroke="black" d="M774.55,-217.12C765.34,-208.17 753.66,-196.81 743.38,-186.81" style=""/>
+<polygon fill="black" stroke="black" points="745.85,-184.34 736.24,-179.88 740.97,-189.36 745.85,-184.34" style=""/>
+</g>
+<!-- IERC4626 -->
+<g id="node35" class="node" pointer-events="visible" data-name="IERC4626">
+
+<ellipse fill="none" stroke="black" cx="1148.89" cy="-90" rx="52.2" ry="18" style=""/>
+<text text-anchor="middle" x="1148.89" y="-85.8" font-family="Times,serif" font-size="14.00" style="">IERC4626</text>
+</g>
+<!-- IERC4626&#45;&gt;IERC20 -->
+<g id="edge39" class="edge" data-name="IERC4626-&gt;IERC20">
+
+<path fill="none" stroke="black" d="M1118.73,-74.83C1095.37,-63.86 1062.86,-48.58 1037.74,-36.79" style=""/>
+<polygon fill="black" stroke="black" points="1039.39,-33.69 1028.85,-32.61 1036.41,-40.03 1039.39,-33.69" style=""/>
+</g>
+<!-- IERC721 -->
+<g id="node36" class="node" pointer-events="visible" data-name="IERC721">
+
+<ellipse fill="none" stroke="black" cx="1657.89" cy="-162" rx="47.54" ry="18" style=""/>
+<text text-anchor="middle" x="1657.89" y="-157.8" font-family="Times,serif" font-size="14.00" style="">IERC721</text>
+</g>
+<!-- IERC721&#45;&gt;IERC165 -->
+<g id="edge40" class="edge" data-name="IERC721-&gt;IERC165">
+
+<path fill="none" stroke="black" d="M1657.89,-143.7C1657.89,-136.41 1657.89,-127.73 1657.89,-119.54" style=""/>
+<polygon fill="black" stroke="black" points="1661.39,-119.62 1657.89,-109.62 1654.39,-119.62 1661.39,-119.62" style=""/>
+</g>
+<!-- IERC721TokenReceiver -->
+<g id="node37" class="node" pointer-events="visible" data-name="IERC721TokenReceiver">
+
+<ellipse fill="none" stroke="black" cx="2793.89" cy="-306" rx="106.51" ry="18" style=""/>
+<text text-anchor="middle" x="2793.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">IERC721TokenReceiver</text>
+</g>
+<!-- IERC721Metadata -->
+<g id="node38" class="node" pointer-events="visible" data-name="IERC721Metadata">
+
+<ellipse fill="none" stroke="black" cx="1620.89" cy="-234" rx="83.39" ry="18" style=""/>
+<text text-anchor="middle" x="1620.89" y="-229.8" font-family="Times,serif" font-size="14.00" style="">IERC721Metadata</text>
+</g>
+<!-- IERC721Metadata&#45;&gt;IERC721 -->
+<g id="edge41" class="edge" data-name="IERC721Metadata-&gt;IERC721">
+
+<path fill="none" stroke="black" d="M1630.03,-215.7C1634.11,-207.98 1639.01,-198.71 1643.55,-190.11" style=""/>
+<polygon fill="black" stroke="black" points="1646.56,-191.92 1648.14,-181.44 1640.37,-188.65 1646.56,-191.92" style=""/>
+</g>
+<!-- IERC721Enumerable -->
+<g id="node39" class="node" pointer-events="visible" data-name="IERC721Enumerable">
+
+<ellipse fill="none" stroke="black" cx="1816.89" cy="-234" rx="94.34" ry="18" style=""/>
+<text text-anchor="middle" x="1816.89" y="-229.8" font-family="Times,serif" font-size="14.00" style="">IERC721Enumerable</text>
+</g>
+<!-- IERC721Enumerable&#45;&gt;IERC721 -->
+<g id="edge42" class="edge" data-name="IERC721Enumerable-&gt;IERC721">
+
+<path fill="none" stroke="black" d="M1780.41,-216.94C1755.94,-206.17 1723.69,-191.97 1698.42,-180.85" style=""/>
+<polygon fill="black" stroke="black" points="1700.01,-177.72 1689.45,-176.89 1697.19,-184.13 1700.01,-177.72" style=""/>
+</g>
+<!-- IERC1155 -->
+<g id="node40" class="node" pointer-events="visible" data-name="IERC1155">
+
+<ellipse fill="none" stroke="black" cx="1775.89" cy="-162" rx="52.2" ry="18" style=""/>
+<text text-anchor="middle" x="1775.89" y="-157.8" font-family="Times,serif" font-size="14.00" style="">IERC1155</text>
+</g>
+<!-- IERC1155&#45;&gt;IERC165 -->
+<g id="edge43" class="edge" data-name="IERC1155-&gt;IERC165">
+
+<path fill="none" stroke="black" d="M1750.57,-145.98C1733.66,-135.95 1711.19,-122.62 1692.61,-111.6" style=""/>
+<polygon fill="black" stroke="black" points="1694.44,-108.62 1684.05,-106.52 1690.87,-114.64 1694.44,-108.62" style=""/>
+</g>
+<!-- IMulticall3 -->
+<g id="node41" class="node" pointer-events="visible" data-name="IMulticall3">
+
+<ellipse fill="none" stroke="black" cx="2972.89" cy="-306" rx="54.47" ry="18" style=""/>
+<text text-anchor="middle" x="2972.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">IMulticall3</text>
+</g>
+<!-- DemoTest -->
+<g id="node42" class="node" pointer-events="visible" data-name="DemoTest">
+
+<ellipse fill="none" stroke="black" cx="2479.89" cy="-162" rx="51.03" ry="18" style=""/>
+<text text-anchor="middle" x="2479.89" y="-157.8" font-family="Times,serif" font-size="14.00" style="">DemoTest</text>
+</g>
+<!-- DSTest -->
+<g id="node43" class="node" pointer-events="visible" data-name="DSTest">
+
+<ellipse fill="none" stroke="black" cx="2400.89" cy="-90" rx="40.01" ry="18" style=""/>
+<text text-anchor="middle" x="2400.89" y="-85.8" font-family="Times,serif" font-size="14.00" style="">DSTest</text>
+</g>
+<!-- DemoTest&#45;&gt;DSTest -->
+<g id="edge44" class="edge" data-name="DemoTest-&gt;DSTest">
+
+<path fill="none" stroke="black" d="M2461.56,-144.76C2451.17,-135.56 2438.01,-123.9 2426.6,-113.79" style=""/>
+<polygon fill="black" stroke="black" points="2429.23,-111.44 2419.43,-107.43 2424.59,-116.68 2429.23,-111.44" style=""/>
+</g>
+<!-- DemoTestWithSetUp -->
+<g id="node44" class="node" pointer-events="visible" data-name="DemoTestWithSetUp">
+
+<ellipse fill="none" stroke="black" cx="3288.89" cy="-306" rx="94.93" ry="18" style=""/>
+<text text-anchor="middle" x="3288.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">DemoTestWithSetUp</text>
+</g>
+<!-- StdChains -->
+<g id="node45" class="node" pointer-events="visible" data-name="StdChains">
+
+<ellipse fill="none" stroke="black" cx="2964.89" cy="-162" rx="50.99" ry="18" style=""/>
+<text text-anchor="middle" x="2964.89" y="-157.8" font-family="Times,serif" font-size="14.00" style="">StdChains</text>
+</g>
+<!-- stdError -->
+<g id="node46" class="node" pointer-events="visible" data-name="stdError">
+
+<ellipse fill="none" stroke="black" cx="3443.89" cy="-306" rx="42.86" ry="18" style=""/>
+<text text-anchor="middle" x="3443.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">stdError</text>
+</g>
+<!-- console -->
+<g id="node47" class="node" pointer-events="visible" data-name="console">
+
+<ellipse fill="none" stroke="black" cx="3544.89" cy="-306" rx="40.57" ry="18" style=""/>
+<text text-anchor="middle" x="3544.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">console</text>
+</g>
+<!-- Script -->
+<g id="node48" class="node" pointer-events="visible" data-name="Script">
+
+<ellipse fill="none" stroke="black" cx="3110.89" cy="-234" rx="34.21" ry="18" style=""/>
+<text text-anchor="middle" x="3110.89" y="-229.8" font-family="Times,serif" font-size="14.00" style="">Script</text>
+</g>
+<!-- Script&#45;&gt;StdChains -->
+<g id="edge45" class="edge" data-name="Script-&gt;StdChains">
+
+<path fill="none" stroke="black" d="M3086.12,-221.13C3063.81,-210.43 3030.62,-194.52 3004.61,-182.04" style=""/>
+<polygon fill="black" stroke="black" points="3006.21,-178.93 2995.68,-177.76 3003.18,-185.24 3006.21,-178.93" style=""/>
+</g>
+<!-- StdCheatsSafe -->
+<g id="node49" class="node" pointer-events="visible" data-name="StdCheatsSafe">
+
+<ellipse fill="none" stroke="black" cx="2819.89" cy="-90" rx="67.22" ry="18" style=""/>
+<text text-anchor="middle" x="2819.89" y="-85.8" font-family="Times,serif" font-size="14.00" style="">StdCheatsSafe</text>
+</g>
+<!-- Script&#45;&gt;StdCheatsSafe -->
+<g id="edge46" class="edge" data-name="Script-&gt;StdCheatsSafe">
+
+<path fill="none" stroke="black" d="M3121.19,-216.54C3131.97,-196.99 3145.12,-164.45 3127.89,-144 3099,-109.72 2979.1,-97.61 2897.7,-93.34" style=""/>
+<polygon fill="black" stroke="black" points="2898.16,-89.85 2888,-92.86 2897.81,-96.85 2898.16,-89.85" style=""/>
+</g>
+<!-- StdUtils -->
+<g id="node50" class="node" pointer-events="visible" data-name="StdUtils">
+
+<ellipse fill="none" stroke="black" cx="3075.89" cy="-162" rx="42.9" ry="18" style=""/>
+<text text-anchor="middle" x="3075.89" y="-157.8" font-family="Times,serif" font-size="14.00" style="">StdUtils</text>
+</g>
+<!-- Script&#45;&gt;StdUtils -->
+<g id="edge47" class="edge" data-name="Script-&gt;StdUtils">
+
+<path fill="none" stroke="black" d="M3102.59,-216.41C3098.68,-208.59 3093.92,-199.06 3089.5,-190.23" style=""/>
+<polygon fill="black" stroke="black" points="3092.64,-188.69 3085.04,-181.31 3086.38,-191.82 3092.64,-188.69" style=""/>
+</g>
+<!-- ScriptBase -->
+<g id="node51" class="node" pointer-events="visible" data-name="ScriptBase">
+
+<ellipse fill="none" stroke="black" cx="3227.89" cy="-162" rx="52.75" ry="18" style=""/>
+<text text-anchor="middle" x="3227.89" y="-157.8" font-family="Times,serif" font-size="14.00" style="">ScriptBase</text>
+</g>
+<!-- Script&#45;&gt;ScriptBase -->
+<g id="edge48" class="edge" data-name="Script-&gt;ScriptBase">
+
+<path fill="none" stroke="black" d="M3132.89,-219.83C3149.8,-209.72 3173.49,-195.55 3192.98,-183.89" style=""/>
+<polygon fill="black" stroke="black" points="3194.64,-186.97 3201.43,-178.83 3191.05,-180.96 3194.64,-186.97" style=""/>
+</g>
+<!-- CommonBase -->
+<g id="node59" class="node" pointer-events="visible" data-name="CommonBase">
+
+<ellipse fill="none" stroke="black" cx="3141.89" cy="-90" rx="65.52" ry="18" style=""/>
+<text text-anchor="middle" x="3141.89" y="-85.8" font-family="Times,serif" font-size="14.00" style="">CommonBase</text>
+</g>
+<!-- ScriptBase&#45;&gt;CommonBase -->
+<g id="edge58" class="edge" data-name="ScriptBase-&gt;CommonBase">
+
+<path fill="none" stroke="black" d="M3208.37,-145.12C3197.28,-136.09 3183.19,-124.62 3170.84,-114.57" style=""/>
+<polygon fill="black" stroke="black" points="3173.36,-112.11 3163.39,-108.51 3168.94,-117.53 3173.36,-112.11" style=""/>
+</g>
+<!-- StdAssertions -->
+<g id="node52" class="node" pointer-events="visible" data-name="StdAssertions">
+
+<ellipse fill="none" stroke="black" cx="2307.89" cy="-162" rx="64.88" ry="18" style=""/>
+<text text-anchor="middle" x="2307.89" y="-157.8" font-family="Times,serif" font-size="14.00" style="">StdAssertions</text>
+</g>
+<!-- StdAssertions&#45;&gt;DSTest -->
+<g id="edge49" class="edge" data-name="StdAssertions-&gt;DSTest">
+
+<path fill="none" stroke="black" d="M2329.46,-144.76C2342.1,-135.25 2358.23,-123.1 2371.97,-112.77" style=""/>
+<polygon fill="black" stroke="black" points="2373.93,-115.67 2379.81,-106.86 2369.72,-110.08 2373.93,-115.67" style=""/>
+</g>
+<!-- StdStyle -->
+<g id="node53" class="node" pointer-events="visible" data-name="StdStyle">
+
+<ellipse fill="none" stroke="black" cx="3646.89" cy="-306" rx="43.54" ry="18" style=""/>
+<text text-anchor="middle" x="3646.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">StdStyle</text>
+</g>
+<!-- Test -->
+<g id="node54" class="node" pointer-events="visible" data-name="Test">
+
+<ellipse fill="none" stroke="black" cx="2734.89" cy="-234" rx="27.83" ry="18" style=""/>
+<text text-anchor="middle" x="2734.89" y="-229.8" font-family="Times,serif" font-size="14.00" style="">Test</text>
+</g>
+<!-- Test&#45;&gt;DSTest -->
+<g id="edge50" class="edge" data-name="Test-&gt;DSTest">
+
+<path fill="none" stroke="black" d="M2706.74,-232.19C2637.38,-229.6 2460.85,-219.21 2419.89,-180 2403.91,-164.71 2399.73,-139.54 2399.21,-119.86" style=""/>
+<polygon fill="black" stroke="black" points="2402.71,-119.99 2399.28,-109.97 2395.71,-119.94 2402.71,-119.99" style=""/>
+</g>
+<!-- Test&#45;&gt;StdChains -->
+<g id="edge52" class="edge" data-name="Test-&gt;StdChains">
+
+<path fill="none" stroke="black" d="M2759.94,-225.38C2797.42,-213.97 2868.79,-192.25 2916.62,-177.69" style=""/>
+<polygon fill="black" stroke="black" points="2917.34,-181.13 2925.89,-174.87 2915.3,-174.43 2917.34,-181.13" style=""/>
+</g>
+<!-- Test&#45;&gt;StdUtils -->
+<g id="edge55" class="edge" data-name="Test-&gt;StdUtils">
+
+<path fill="none" stroke="black" d="M2761.95,-229.36C2813.57,-222.12 2929.46,-204.5 3024.89,-180 3027.61,-179.3 3030.41,-178.53 3033.22,-177.71" style=""/>
+<polygon fill="black" stroke="black" points="3034.01,-181.13 3042.54,-174.84 3031.95,-174.44 3034.01,-181.13" style=""/>
+</g>
+<!-- Test&#45;&gt;StdAssertions -->
+<g id="edge51" class="edge" data-name="Test-&gt;StdAssertions">
+
+<path fill="none" stroke="black" d="M2707.72,-229.44C2648.99,-221.6 2505.9,-201.85 2386.89,-180 2380.85,-178.89 2374.57,-177.67 2368.3,-176.39" style=""/>
+<polygon fill="black" stroke="black" points="2369.08,-172.98 2358.58,-174.38 2367.66,-179.84 2369.08,-172.98" style=""/>
+</g>
+<!-- StdCheats -->
+<g id="node55" class="node" pointer-events="visible" data-name="StdCheats">
+
+<ellipse fill="none" stroke="black" cx="2734.89" cy="-162" rx="50.4" ry="18" style=""/>
+<text text-anchor="middle" x="2734.89" y="-157.8" font-family="Times,serif" font-size="14.00" style="">StdCheats</text>
+</g>
+<!-- Test&#45;&gt;StdCheats -->
+<g id="edge53" class="edge" data-name="Test-&gt;StdCheats">
+
+<path fill="none" stroke="black" d="M2734.89,-215.7C2734.89,-208.41 2734.89,-199.73 2734.89,-191.54" style=""/>
+<polygon fill="black" stroke="black" points="2738.39,-191.62 2734.89,-181.62 2731.39,-191.62 2738.39,-191.62" style=""/>
+</g>
+<!-- StdInvariant -->
+<g id="node56" class="node" pointer-events="visible" data-name="StdInvariant">
+
+<ellipse fill="none" stroke="black" cx="2607.89" cy="-162" rx="58.55" ry="18" style=""/>
+<text text-anchor="middle" x="2607.89" y="-157.8" font-family="Times,serif" font-size="14.00" style="">StdInvariant</text>
+</g>
+<!-- Test&#45;&gt;StdInvariant -->
+<g id="edge54" class="edge" data-name="Test-&gt;StdInvariant">
+
+<path fill="none" stroke="black" d="M2714.2,-221.6C2695.55,-211.32 2667.67,-195.95 2645.14,-183.54" style=""/>
+<polygon fill="black" stroke="black" points="2646.99,-180.56 2636.55,-178.8 2643.62,-186.69 2646.99,-180.56" style=""/>
+</g>
+<!-- TestBase -->
+<g id="node57" class="node" pointer-events="visible" data-name="TestBase">
+
+<ellipse fill="none" stroke="black" cx="2849.89" cy="-162" rx="46.37" ry="18" style=""/>
+<text text-anchor="middle" x="2849.89" y="-157.8" font-family="Times,serif" font-size="14.00" style="">TestBase</text>
+</g>
+<!-- Test&#45;&gt;TestBase -->
+<g id="edge56" class="edge" data-name="Test-&gt;TestBase">
+
+<path fill="none" stroke="black" d="M2754.66,-220.97C2771.47,-210.73 2795.98,-195.81 2815.93,-183.67" style=""/>
+<polygon fill="black" stroke="black" points="2817.57,-186.77 2824.29,-178.58 2813.93,-180.79 2817.57,-186.77" style=""/>
+</g>
+<!-- StdCheats&#45;&gt;StdCheatsSafe -->
+<g id="edge59" class="edge" data-name="StdCheats-&gt;StdCheatsSafe">
+
+<path fill="none" stroke="black" d="M2754.17,-145.12C2765.02,-136.18 2778.79,-124.85 2790.91,-114.86" style=""/>
+<polygon fill="black" stroke="black" points="2793.12,-117.57 2798.62,-108.51 2788.67,-112.17 2793.12,-117.57" style=""/>
+</g>
+<!-- TestBase&#45;&gt;CommonBase -->
+<g id="edge57" class="edge" data-name="TestBase-&gt;CommonBase">
+
+<path fill="none" stroke="black" d="M2884.68,-149.79C2891.36,-147.76 2898.32,-145.75 2904.89,-144 2963.54,-128.4 3031.18,-113.59 3079.14,-103.61" style=""/>
+<polygon fill="black" stroke="black" points="3079.72,-107.06 3088.8,-101.61 3078.3,-100.21 3079.72,-107.06" style=""/>
+</g>
+<!-- stdMath -->
+<g id="node58" class="node" pointer-events="visible" data-name="stdMath">
+
+<ellipse fill="none" stroke="black" cx="3750.89" cy="-306" rx="42.88" ry="18" style=""/>
+<text text-anchor="middle" x="3750.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">stdMath</text>
+</g>
+<!-- console2 -->
+<g id="node60" class="node" pointer-events="visible" data-name="console2">
+
+<ellipse fill="none" stroke="black" cx="3856.89" cy="-306" rx="45.23" ry="18" style=""/>
+<text text-anchor="middle" x="3856.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">console2</text>
+</g>
+<!-- stdStorageSafe -->
+<g id="node61" class="node" pointer-events="visible" data-name="stdStorageSafe">
+
+<ellipse fill="none" stroke="black" cx="3988.89" cy="-306" rx="68.93" ry="18" style=""/>
+<text text-anchor="middle" x="3988.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">stdStorageSafe</text>
+</g>
+<!-- stdStorage -->
+<g id="node62" class="node" pointer-events="visible" data-name="stdStorage">
+
+<ellipse fill="none" stroke="black" cx="4127.89" cy="-306" rx="51.61" ry="18" style=""/>
+<text text-anchor="middle" x="4127.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">stdStorage</text>
+</g>
+<!-- safeconsole -->
+<g id="node63" class="node" pointer-events="visible" data-name="safeconsole">
+
+<ellipse fill="none" stroke="black" cx="4253.89" cy="-306" rx="56.16" ry="18" style=""/>
+<text text-anchor="middle" x="4253.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">safeconsole</text>
+</g>
+<!-- VmSafe -->
+<g id="node64" class="node" pointer-events="visible" data-name="VmSafe">
+
+<ellipse fill="none" stroke="black" cx="4354.89" cy="-234" rx="42.86" ry="18" style=""/>
+<text text-anchor="middle" x="4354.89" y="-229.8" font-family="Times,serif" font-size="14.00" style="">VmSafe</text>
+</g>
+<!-- Vm -->
+<g id="node65" class="node" pointer-events="visible" data-name="Vm">
+
+<ellipse fill="none" stroke="black" cx="4354.89" cy="-306" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="4354.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">Vm</text>
+</g>
+<!-- Vm&#45;&gt;VmSafe -->
+<g id="edge60" class="edge" data-name="Vm-&gt;VmSafe">
+
+<path fill="none" stroke="black" d="M4354.89,-287.7C4354.89,-280.41 4354.89,-271.73 4354.89,-263.54" style=""/>
+<polygon fill="black" stroke="black" points="4358.39,-263.62 4354.89,-253.62 4351.39,-263.62 4358.39,-263.62" style=""/>
+</g>
+<!-- stdJson -->
+<g id="node66" class="node" pointer-events="visible" data-name="stdJson">
+
+<ellipse fill="none" stroke="black" cx="4438.89" cy="-306" rx="39.46" ry="18" style=""/>
+<text text-anchor="middle" x="4438.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">stdJson</text>
+</g>
+<!-- CounterScript -->
+<g id="node67" class="node" pointer-events="visible" data-name="CounterScript">
+
+<ellipse fill="none" stroke="black" cx="3110.89" cy="-306" rx="65.43" ry="18" style=""/>
+<text text-anchor="middle" x="3110.89" y="-301.8" font-family="Times,serif" font-size="14.00" style="">CounterScript</text>
+</g>
+<!-- CounterScript&#45;&gt;Script -->
+<g id="edge61" class="edge" data-name="CounterScript-&gt;Script">
+
+<path fill="none" stroke="black" d="M3110.89,-287.7C3110.89,-280.41 3110.89,-271.73 3110.89,-263.54" style=""/>
+<polygon fill="black" stroke="black" points="3114.39,-263.62 3110.89,-253.62 3107.39,-263.62 3114.39,-263.62" style=""/>
+</g>
+</g>
+</svg>
